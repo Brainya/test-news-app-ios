@@ -12,8 +12,6 @@
 		CEE7A2D31FB87F8900B39B69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE7A2D11FB87F8900B39B69 /* Main.storyboard */; };
 		CEE7A2D51FB87F8900B39B69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE7A2D41FB87F8900B39B69 /* Assets.xcassets */; };
 		CEE7A2D81FB87F8900B39B69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE7A2D61FB87F8900B39B69 /* LaunchScreen.storyboard */; };
-		CEE7A2E31FB87F8900B39B69 /* TestNewsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7A2E21FB87F8900B39B69 /* TestNewsAppTests.swift */; };
-		CEE7A2EE1FB87F8900B39B69 /* TestNewsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7A2ED1FB87F8900B39B69 /* TestNewsAppUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,7 @@
 		CEE7A2D71FB87F8900B39B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE7A2D91FB87F8900B39B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEE7A2DE1FB87F8900B39B69 /* TestNewsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestNewsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEE7A2E21FB87F8900B39B69 /* TestNewsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNewsAppTests.swift; sourceTree = "<group>"; };
-		CEE7A2E41FB87F8900B39B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEE7A2E91FB87F8900B39B69 /* TestNewsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestNewsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEE7A2ED1FB87F8900B39B69 /* TestNewsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNewsAppUITests.swift; sourceTree = "<group>"; };
-		CEE7A2EF1FB87F8900B39B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				CEE7A2CC1FB87F8900B39B69 /* TestNewsApp */,
-				CEE7A2E11FB87F8900B39B69 /* TestNewsAppTests */,
-				CEE7A2EC1FB87F8900B39B69 /* TestNewsAppUITests */,
 				CEE7A2CB1FB87F8900B39B69 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,24 +97,6 @@
 				CEE7A2D91FB87F8900B39B69 /* Info.plist */,
 			);
 			path = TestNewsApp;
-			sourceTree = "<group>";
-		};
-		CEE7A2E11FB87F8900B39B69 /* TestNewsAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				CEE7A2E21FB87F8900B39B69 /* TestNewsAppTests.swift */,
-				CEE7A2E41FB87F8900B39B69 /* Info.plist */,
-			);
-			path = TestNewsAppTests;
-			sourceTree = "<group>";
-		};
-		CEE7A2EC1FB87F8900B39B69 /* TestNewsAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CEE7A2ED1FB87F8900B39B69 /* TestNewsAppUITests.swift */,
-				CEE7A2EF1FB87F8900B39B69 /* Info.plist */,
-			);
-			path = TestNewsAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +242,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE7A2E31FB87F8900B39B69 /* TestNewsAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE7A2EE1FB87F8900B39B69 /* TestNewsAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
